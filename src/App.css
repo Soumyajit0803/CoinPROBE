@@ -217,7 +217,7 @@ html, body {
   flex-direction: column;
   place-items: center;
   flex-wrap: wrap;
-  width: min(100%, 900px);
+  width: min(100vw, 900px);
   /* box-shadow: -2px 2px 25px -5px hsl(197, 100%, 40%); */
 }
 
@@ -256,7 +256,7 @@ html, body {
   /* margin: 1rem; */
   background: linear-gradient(0deg, var(--dark) 0%, var(--brand-dark) 100%);
   justify-items: center;
-  width: min(100%, 900px);
+  width: min(100vw, 900px);
 }
 
 .side-table h4 {
@@ -393,7 +393,7 @@ html, body {
   justify-content: center;
   align-items: center;
   background: linear-gradient(0deg, var(--dark) 0%, var(--brand-dark) 100%);
-  width: min(100%, 900px);
+  width: min(100vw, 900px);
 }
 
 .graph-label {

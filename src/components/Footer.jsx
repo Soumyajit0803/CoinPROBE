@@ -8,7 +8,7 @@ function Footer() {
         <img src = {Brand} />
         <p>Provides latest information about top 100 cryptocurrencies.<br/>powered by CoinGecko</p>
         <div className="copyright">
-          Made by <a target="_blank" href="https://www.coingecko.com" style = {{color: "var(--brand"}}>Soumyajit Karmakar</a>
+          Made by <a target="_blank" href="https://www.linkedin.com/in/soumyajit-karmakar-68362526b/" style = {{color: "var(--brand"}}>Soumyajit Karmakar</a>
         </div>
       </div>
       <div className="footer-right">

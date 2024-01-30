@@ -1,8 +1,14 @@
-# React + Vite
+# **CoinPROBE** : A Simple React Cryptocurrency Tracker :moneybag:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This React Web app tracks relevant market information about the top 100 current cryptocurrencies, thanks to CoinGECKO for the free API :grinning:
 
-Currently, two official plugins are available:
+## Website look and feel :star2:
+![Alt text](/CoinPROBE-home.png)
+![Alt text](/CoinPROBE-list.png)
+![Alt text](/CoinPROBE-singlecoin.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tech Stack used :iphone::sunglasses:
+* [react-chartjs-2](https://react-chartjs-2.js.org/) for all graphs
+* [Vite](https://vitejs.dev/) for development server
+
+> Checkout this project [Here](https://coinprobe.vercel.app/)

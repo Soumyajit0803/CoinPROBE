@@ -12,7 +12,7 @@ function Footer() {
         </div>
       </div>
       <div className="footer-right">
-        <a target="_blank" href = "https://github.com/Soumyajit0803">Github</a>
+        <a target="_blank" href = "https://github.com/Soumyajit0803/CoinPROBE">Github</a>
         <a target = "_blank" href = "https://github.com/Soumyajit0803/CoinPROBE/blob/main/LICENSE.txt">License</a>
         <a target="_blank" href = "https://www.coingecko.com/api/documentation">CoinGecko API</a>
       </div>

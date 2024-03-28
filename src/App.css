@@ -830,9 +830,10 @@ html, body {
 
 .footer {
   display: flex;
+  justify-content: start;
+  gap: 10rem;
   width: 100%;
   border-radius: 0rem;
-  justify-content: space-between;
   flex-wrap: wrap;
 }
 
@@ -859,26 +860,16 @@ html, body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  flex-grow: 1;
+  align-items: start;
 }
 
 .footer-right a {
   color: var(--brand);
   font-size: 0.9rem;
-  padding-left: 40%;
   font-family: "Zilla Slab";
 }
 
-@media (max-width: 600px) {
-  /* .grid-row > div:nth-child(3) {
-    display: none;
-  }
-  .grid-row {
-    grid-template-columns: 1fr 5fr 3fr;
-  }
-  .grand-list {
-    width: 100%;
-  } */
+@media (max-width: 650px) {
   .footer,
   .footer-left {
     display: flex;
@@ -886,6 +877,7 @@ html, body {
     justify-content: center;
     align-items: center;
     text-align: center;
+    gap: 0rem;
   }
 
   .footer-right > a {

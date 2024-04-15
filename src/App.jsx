@@ -6,13 +6,12 @@ import Homepage from "./pages/Homepage";
 import CoinsList from "./pages/CoinsList";
 import AboutCoin from "./pages/AboutCoin";
 import ErrorPage from "./components/ErrorPage";
-
+import { Analytics } from '@vercel/analytics/react';
 export default function App() {
   return (
     <div className="page">
       <BrowserRouter>
       <Header />
-        
         <Routes>
           <Route path="/" element={<Homepage />} />
           <Route path="/coinslist" element={<CoinsList />} />
@@ -21,6 +20,7 @@ export default function App() {
         </Routes>
       </BrowserRouter>
       <Footer />
+      <Analytics />
     </div>
   );
 }
